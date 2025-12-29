@@ -133,6 +133,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 👤 Author
 
 **Saikat Sardar**
+**Sekhar Banerjee**
 
 - GitHub: [@citindia](https://github.com/citindia)
 - Project Homepage: [https://github.com/citindia/bs5-project-portfolio](https://github.com/citindia/bs5-project-portfolio)
