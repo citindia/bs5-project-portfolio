@@ -5,28 +5,742 @@
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="assets/logo.ico"
+      type="image/x-icon" />
     <!-- Bootstrap CSS -->
     <link
       rel="stylesheet"
       href="css/bootstrap.min.css" />
+    <!-- Animate CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <!-- Custom CSS -->
     <link
       rel="stylesheet"
       href="css/style.css" />
-    <title>Home | BS5 Project Portfolio</title>
+    <title>Your Name | BS5 Project Portfolio</title>
   </head>
-  <body>
+  <body class="c-bg-img">
     <!-- Body Start -->
     <!-- Header Start -->
-    <header></header>
+    <header
+      class="container-fluid header-padding pt-0"
+      id="home">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a
+            class="navbar-brand fs-1"
+            style="font-weight: 900"
+            href="#"
+            >Your <span class="c-text-orange">Logo.</span></a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse"
+            id="navbarSupportedContent">
+            <ul
+              class="navbar-nav m-auto mb-2 mb-lg-0 py-1 px-5 mt-3 bg-white rounded-5 shadow">
+              <li class="nav-item mx-auto mx-xl-4 my-4 my-xl-0">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="#home"
+                  >Home</a
+                >
+              </li>
+
+              <li class="nav-item mx-auto mx-xl-4 my-4 my-xl-0">
+                <a
+                  class="nav-link"
+                  href="#portfolio"
+                  >Portfolio</a
+                >
+              </li>
+
+              <li class="nav-item mx-auto mx-xl-4 my-4 my-xl-0">
+                <a
+                  class="nav-link"
+                  href="#contact"
+                  >Contact</a
+                >
+              </li>
+
+              <li
+                class="nav-item mx-auto mx-xl-4 my-4 my-xl-0 d-block d-xl-none">
+                <a
+                  href="https://in.linkedin.com/"
+                  class="c-btn-link mt-3">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="22"
+                    height="22"
+                    fill="currentColor"
+                    class="bi bi-linkedin c-text-orange me-2"
+                    viewBox="0 0 16 16">
+                    <path
+                      d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z" />
+                  </svg>
+                  Get in Touch
+                </a>
+              </li>
+            </ul>
+
+            <a
+              href="https://in.linkedin.com/"
+              class="c-btn-link mt-3 d-none d-xl-block">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="22"
+                height="22"
+                fill="currentColor"
+                class="bi bi-linkedin c-text-orange me-2"
+                viewBox="0 0 16 16">
+                <path
+                  d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z" />
+              </svg>
+              Get in Touch
+            </a>
+          </div>
+        </div>
+      </nav>
+    </header>
     <!-- Header End -->
 
     <!-- Main Start -->
-    <main></main>
+    <main>
+      <!-- Hero Section Start -->
+      <section>
+        <div
+          class="w-100 d-flex justify-content-center animate__animated animate__fadeIn">
+          <img
+            src="assets/profile-img.jpg"
+            class="w-50 my-5 rounded-circle border border-5 border-white shadow"
+            style="max-width: 15rem"
+            alt="" />
+        </div>
+
+        <div class="w-100 d-flex justify-content-center">
+          <div class="">
+            <div class="d-flex gap-3">
+              <div class="">
+                <button
+                  type="button"
+                  href="#"
+                  class="btn btn-outline-secondary rounded-pill py-2 px-3"
+                  disabled>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="18"
+                    height="18"
+                    fill="currentColor"
+                    class="bi bi-check-circle"
+                    viewBox="0 0 16 16">
+                    <path
+                      d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16" />
+                    <path
+                      d="m10.97 4.97-.02.022-3.473 4.425-2.093-2.094a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05" />
+                  </svg>
+                  Web Designer
+                </button>
+              </div>
+
+              <div class="">
+                <button
+                  type="button"
+                  href="#"
+                  class="btn btn-outline-secondary rounded-pill py-2 px-3"
+                  disabled>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="18"
+                    height="18"
+                    fill="currentColor"
+                    class="bi bi-check-circle"
+                    viewBox="0 0 16 16">
+                    <path
+                      d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16" />
+                    <path
+                      d="m10.97 4.97-.02.022-3.473 4.425-2.093-2.094a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05" />
+                  </svg>
+                  UI/UX Designer
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="w-100 d-flex justify-content-center">
+          <div class="w-100 text-center">
+            <div class="c-name-title mt-4 mt-md-0">
+              <span class="c-text-orange">Your</span> Name Here
+            </div>
+            <div class="fs-6 c-text-gray mt-2 mt-md-0">
+              Whether you’re looking to discuss a new project, seek advice, or
+              collaborate, I’m always excited to connect and explore new
+              possibilities.
+            </div>
+            <div class="mt-5">
+              <a
+                href="#"
+                class="c-bg-orange text-decoration-none fs-5 text-white px-5 py-3 rounded-pill">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  fill="currentColor"
+                  class="bi bi-download me-2"
+                  viewBox="0 0 16 16">
+                  <path
+                    d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5" />
+                  <path
+                    d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708z" />
+                </svg>
+                Download Resume</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Hero Section End -->
+
+      <!-- 2nd Section Start -->
+      <section class="container-fluid bg-black second-section-py">
+        <div class="container">
+          <div
+            class="fs-1 text-white text-center"
+            style="font-weight: 900">
+            <span class="c-text-orange">Skills</span> & Software
+          </div>
+
+          <div class="d-block d-xl-flex">
+            <!-- Skills -->
+            <div class="w-100">
+              <div class="mt-2 py-4">
+                <div
+                  class="fs-4 text-white"
+                  style="font-weight: 900">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="32"
+                    height="32"
+                    fill="currentColor"
+                    class="bi bi-laptop c-text-orange me-1"
+                    viewBox="0 0 16 16">
+                    <path
+                      d="M13.5 3a.5.5 0 0 1 .5.5V11H2V3.5a.5.5 0 0 1 .5-.5zm-11-1A1.5 1.5 0 0 0 1 3.5V12h14V3.5A1.5 1.5 0 0 0 13.5 2zM0 12.5h16a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5" />
+                  </svg>
+                  Web Designer
+                </div>
+                <div
+                  class="progress bg-dark mt-2 w-100"
+                  role="progressbar"
+                  aria-label="Example 1px high"
+                  aria-valuenow="25"
+                  aria-valuemin="0"
+                  aria-valuemax="100">
+                  <div
+                    class="progress-bar animate__animated animate__slideInLeft animate__delay-2s"
+                    style="width: 80%; background-color: #ff4928"></div>
+                </div>
+              </div>
+
+              <div class="mt-2 py-4">
+                <div
+                  class="fs-4 text-white"
+                  style="font-weight: 900">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="32"
+                    height="32"
+                    class="c-text-orange me-1"
+                    viewBox="0 0 24 24">
+                    <g
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="1.5">
+                      <path
+                        d="M12 2H8.667a3.333 3.333 0 1 0 0 6.667H12zm0 6.667H8.667a3.333 3.333 0 0 0 0 6.666H12z" />
+                      <path
+                        d="M18.667 12A3.333 3.333 0 1 1 12 12a3.333 3.333 0 0 1 6.667 0Zm-10 3.334H12v3.333a3.333 3.333 0 1 1-3.333-3.334Z" />
+                      <path d="M12 2h3.333a3.333 3.333 0 1 1 0 6.667H12z" />
+                    </g>
+                  </svg>
+                  UI/UX Designer
+                </div>
+                <div
+                  class="progress bg-dark mt-2 w-100"
+                  role="progressbar"
+                  aria-label="Example 1px high"
+                  aria-valuenow="25"
+                  aria-valuemin="0"
+                  aria-valuemax="100">
+                  <div
+                    class="progress-bar animate__animated animate__slideInLeft animate__delay-3s"
+                    style="width: 95%; background-color: #ff4928"></div>
+                </div>
+              </div>
+
+              <div class="mt-2 py-4">
+                <div
+                  class="fs-4 text-white"
+                  style="font-weight: 900">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="32"
+                    height="32"
+                    class="c-text-orange me-1"
+                    viewBox="0 0 24 24">
+                    <path
+                      fill="currentColor"
+                      fill-rule="evenodd"
+                      d="M5 1a4 4 0 0 0-4 4v14a4 4 0 0 0 4 4h14a4 4 0 0 0 4-4V5a4 4 0 0 0-4-4zm.5 6H9a3.5 3.5 0 1 1 0 7H7.5v3h-2zm2 5H9a1.5 1.5 0 0 0 0-3H7.5zm10.425-.366c-.857-.193-1.765-.345-2.423-.296c-.333.024-.758.128-.33.472c.353.282.77.459 1.188.635c.43.182.862.365 1.228.666c.511.42.912 1.032.912 1.889c0 .855-.404 1.51-1.048 1.9c-.569.344-1.256.442-1.851.457c-.962.024-2.022-.168-2.812-.362v-2.068c.728.208 1.858.453 2.762.43c.47-.011.747-.097.873-.173c.2-.12.018-.426-.105-.527c-.352-.29-.775-.468-1.2-.647c-.42-.177-.842-.355-1.198-.64c-.51-.41-.921-1.015-.921-1.87c0-.695.29-1.28.82-1.665c.472-.34 1.044-.456 1.533-.492c.825-.061 1.777.082 2.572.245z"
+                      clip-rule="evenodd" />
+                  </svg>
+                  Photoshop Designer
+                </div>
+                <div
+                  class="progress bg-dark mt-2 w-100"
+                  role="progressbar"
+                  aria-label="Example 1px high"
+                  aria-valuenow="25"
+                  aria-valuemin="0"
+                  aria-valuemax="100">
+                  <div
+                    class="progress-bar animate__animated animate__slideInLeft animate__delay-4s"
+                    style="width: 65%; background-color: #ff4928"></div>
+                </div>
+              </div>
+
+              <div class="mt-2 py-4">
+                <div
+                  class="fs-4 text-white"
+                  style="font-weight: 900">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="28"
+                    height="28"
+                    class="c-text-orange me-1"
+                    viewBox="0 0 24 24">
+                    <g
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-miterlimit="10"
+                      stroke-width="1">
+                      <path
+                        d="M22.5 5.5H.5v6h22zm-4-4h-14l-4 4h22zm1 6v2m-2-2v2m-2-2v2" />
+                      <path
+                        d="M4.75 7.25L3.5 8.5l1.25 1.25L6 8.5zM22.5 11.5H.5v6h22zm-3 2v2m-2-2v2m-2-2v2" />
+                      <path
+                        d="M4.75 13.25L3.5 14.5l1.25 1.25L6 14.5zM22.5 17.5H.5v6h22zm-3 2v2m-2-2v2m-2-2v2" />
+                      <path d="M4.75 19.25L3.5 20.5l1.25 1.25L6 20.5z" />
+                    </g>
+                  </svg>
+                  Live Website
+                </div>
+                <div
+                  class="progress bg-dark mt-2 w-100"
+                  role="progressbar"
+                  aria-label="Example 1px high"
+                  aria-valuenow="25"
+                  aria-valuemin="0"
+                  aria-valuemax="100">
+                  <div
+                    class="progress-bar animate__animated animate__slideInLeft animate__delay-5s"
+                    style="width: 50%; background-color: #ff4928"></div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Software icons -->
+            <div class="w-100 px-md-2 pt-5 p-xl-5">
+              <div
+                class="border border-light border-opacity-25 p-3 p-md-5 rounded-5 d-flex justify-content-center align-items-center flex-wrap">
+                <div class="text-white w-25 p-2 p-md-4">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="52"
+                    height="52"
+                    viewBox="0 0 24 24">
+                    <g fill="none">
+                      <g
+                        fill="currentColor"
+                        clip-path="url(#akarIconsHtmlFill0)">
+                        <path
+                          d="M5.08 0h1.082v1.069h.99V0h1.082v3.236H7.152V2.153h-.99v1.083H5.081zm4.576 1.073h-.952V0h2.987v1.073h-.953v2.163H9.656zM12.165 0h1.128l.694 1.137L14.68 0h1.128v3.236h-1.077V1.632l-.744 1.151h-.019l-.745-1.15v1.603h-1.058zm4.181 0h1.083v2.167h1.52v1.07h-2.603z" />
+                        <path
+                          fill-rule="evenodd"
+                          d="M5.046 22.072L3 4.717h18L18.953 22.07L11.99 24zm4.137-9.5l-.194-2.18h8.145l.19-2.128H6.664l.574 6.437h7.377l-.247 2.76l-2.374.642h-.002l-2.37-.64l-.152-1.697H7.332l.298 3.342l4.36 1.21l4.367-1.21l.532-5.964l.052-.571z"
+                          clip-rule="evenodd" />
+                      </g>
+                      <defs>
+                        <clipPath id="akarIconsHtmlFill0">
+                          <path
+                            fill="#fff"
+                            d="M0 0h24v24H0z" />
+                        </clipPath>
+                      </defs>
+                    </g>
+                  </svg>
+                </div>
+
+                <div class="text-white w-25 p-2 p-md-4">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="52"
+                    height="52"
+                    viewBox="0 0 24 24">
+                    <path
+                      fill="currentColor"
+                      d="M7.502 0h2.578v1.078h-1.5v1.078h1.5v1.078H7.502zm3.093 0h2.579v.938h-1.5v.187h1.5v2.156h-2.579v-.984h1.5v-.188h-1.5zm3.095 0h2.577v.938h-1.5v.187h1.5v2.156H13.69v-.984h1.5v-.188h-1.5z" />
+                    <path
+                      fill="currentColor"
+                      fill-rule="evenodd"
+                      d="m11.991 24l-6.944-1.928L3 4.717h18L18.954 22.07zM7.047 12.573l.191 2.128h7.377l-.247 2.76l-2.374.642h-.002l-2.37-.64l-.152-1.697H7.333l.298 3.342l4.36 1.21l4.367-1.21l.532-5.964l.052-.571l.384-4.309H6.664l.194 2.129h8.136l-.194 2.18z"
+                      clip-rule="evenodd" />
+                  </svg>
+                </div>
+
+                <div class="text-white w-25 p-2 p-md-4">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="52"
+                    height="52"
+                    viewBox="0 0 128 128">
+                    <path
+                      fill="currentColor"
+                      d="M11.398 121.43v-17.738h5.047q2.3 0 3.649 1.126q1.348 1.125 1.348 2.931q0 1.51-.816 2.623q-.817 1.113-2.252 1.583v.05q1.794.21 2.87 1.36q1.076 1.138 1.076 2.969q0 2.276-1.632 3.686q-1.633 1.41-4.12 1.41zm2.078-15.858v5.727h2.128q1.707 0 2.684-.816q.977-.83.977-2.326q0-2.585-3.402-2.585zm0 7.595v6.383h2.82q1.831 0 2.833-.866q1.014-.866 1.014-2.375q0-3.142-4.28-3.142zm17.466 8.563q-2.808 0-4.49-1.769q-1.67-1.781-1.67-4.713q0-3.191 1.744-4.985q1.744-1.793 4.713-1.793q2.832 0 4.416 1.744q1.595 1.744 1.595 4.836q0 3.031-1.719 4.862q-1.707 1.818-4.589 1.818m.148-11.553q-1.954 0-3.092 1.336q-1.138 1.323-1.138 3.661q0 2.252 1.15 3.55q1.15 1.3 3.08 1.3q1.967 0 3.019-1.275q1.063-1.274 1.063-3.624q0-2.375-1.063-3.662q-1.052-1.286-3.019-1.286m14.696 11.553q-2.808 0-4.49-1.769q-1.67-1.781-1.67-4.713q0-3.191 1.744-4.985q1.744-1.793 4.713-1.793q2.832 0 4.416 1.744q1.596 1.744 1.596 4.836q0 3.031-1.72 4.862q-1.707 1.818-4.589 1.818m.148-11.553q-1.954 0-3.092 1.336q-1.138 1.323-1.138 3.661q0 2.252 1.15 3.55q1.15 1.3 3.08 1.3q1.967 0 3.019-1.275q1.063-1.274 1.063-3.624q0-2.375-1.063-3.662q-1.052-1.286-3.019-1.286m15.277 11.133q-.717.396-1.893.396q-3.327 0-3.327-3.711v-7.496h-2.177v-1.732h2.177v-3.092l2.029-.656v3.748h3.191v1.732H58.02v7.137q0 1.274.433 1.819q.432.544 1.434.544q.767 0 1.324-.42zm1.942-.34v-2.177q1.657 1.224 3.649 1.224q2.672 0 2.672-1.78q0-.508-.235-.854q-.223-.359-.619-.631q-.383-.272-.915-.482q-.52-.223-1.126-.458q-.84-.334-1.484-.668q-.63-.346-1.064-.767q-.42-.433-.643-.977q-.21-.544-.21-1.274q0-.89.408-1.571q.408-.693 1.088-1.15q.68-.47 1.547-.706q.878-.235 1.806-.235q1.645 0 2.944.57v2.053q-1.398-.916-3.217-.916q-.569 0-1.026.136q-.458.124-.792.36q-.322.234-.507.568q-.173.322-.173.718q0 .494.173.828q.185.334.532.594q.346.26.841.47t1.126.458q.84.321 1.509.668q.668.334 1.138.767q.47.42.717.977q.26.556.26 1.323q0 .94-.42 1.633q-.409.693-1.102 1.15q-.692.458-1.595.681t-1.893.223q-1.954 0-3.39-.755zm17.391.34q-.717.396-1.893.396q-3.327 0-3.327-3.711v-7.496h-2.177v-1.732h2.177v-3.092l2.029-.656v3.748h3.191v1.732h-3.191v7.137q0 1.274.433 1.819q.432.544 1.434.544q.767 0 1.324-.42zm9.315-10.49q-.532-.408-1.534-.408q-1.299 0-2.177 1.224q-.866 1.225-.866 3.34v6.457h-2.028v-12.666h2.028v2.61h.05q.433-1.336 1.323-2.078q.89-.755 1.992-.755q.791 0 1.212.174zm11.271 10.61h-2.029v-1.98h-.05q-1.323 2.277-3.895 2.277q-1.893 0-2.97-1.002q-1.063-1.002-1.063-2.66q0-3.55 4.18-4.13l3.798-.533q0-3.228-2.61-3.228q-2.288 0-4.131 1.558v-2.078q1.868-1.187 4.305-1.187q4.465 0 4.465 4.725zm-2.029-6.407l-3.055.42q-1.41.198-2.128.705q-.717.495-.717 1.769q0 .928.656 1.522q.668.58 1.769.58q1.509 0 2.486-1.05q.99-1.064.99-2.685zm7.929 4.577h-.05v7.657h-2.028v-18.493h2.029v2.226h.049q1.497-2.523 4.379-2.523q2.449 0 3.822 1.707q1.373 1.694 1.373 4.552q0 3.179-1.546 5.096q-1.546 1.905-4.23 1.905q-2.462 0-3.798-2.128zm-.05-5.109v1.77q0 1.57 1.015 2.671q1.027 1.089 2.597 1.089q1.844 0 2.883-1.41q1.05-1.41 1.05-3.922q0-2.115-.976-3.315q-.977-1.2-2.647-1.2q-1.77 0-2.845 1.237q-1.077 1.225-1.077 3.08M27.235 2.051c-7.177 0-12.486 6.284-12.249 13.099c.228 6.546-.068 15.026-2.203 21.94c-2.14 6.936-5.76 11.319-11.673 11.883v6.387c5.913.563 9.533 4.947 11.673 11.883c2.135 6.914 2.43 15.394 2.203 21.94c-.238 6.815 5.072 13.098 12.249 13.098h73.54c7.177 0 12.486-6.284 12.249-13.098c-.228-6.546.068-15.026 2.202-21.94c2.14-6.935 5.751-11.319 11.664-11.883v-6.387c-5.913-.563-9.523-4.947-11.664-11.883c-2.134-6.914-2.43-15.394-2.202-21.94c.237-6.815-5.072-13.099-12.25-13.099zm58.114 61.686c0 9.384-7.002 15.073-18.621 15.073H45.306a.49.49 0 0 1-.491-.491V25.993a.49.49 0 0 1 .491-.492h21.309c9.689 0 16.047 5.246 16.047 13.3c0 5.653-4.277 10.713-9.727 11.6v.296c7.418.813 12.414 5.948 12.414 13.04M64.571 32.262H53.293v15.922h9.5c7.342 0 11.391-2.955 11.391-8.238c0-4.95-3.481-7.684-9.613-7.684m-11.278 22.24V72.05h11.695c7.645 0 11.695-3.066 11.695-8.83c0-5.763-4.163-8.718-12.187-8.718z" />
+                  </svg>
+                </div>
+
+                <div class="text-white w-25 p-2 p-md-4">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="52"
+                    height="52"
+                    viewBox="0 0 32 32">
+                    <path
+                      fill="currentColor"
+                      d="M1 1v30h30V1zm16.326 23.398c0 2.92-1.712 4.248-4.21 4.248c-2.254 0-3.563-1.168-4.228-2.576l2.296-1.39c.443.776.846 1.44 1.812 1.44c.926 0 1.51-.353 1.51-1.77v-9.58h2.82zm6.666 4.248c-2.618 0-4.31-1.248-5.135-2.88l2.295-1.327c.604.978 1.39 1.71 2.78 1.71c1.167 0 1.903-.584 1.903-1.396c0-.966-.766-1.31-2.054-1.865l-.7-.31c-2.034-.865-3.383-1.953-3.383-4.25c0-2.113 1.604-3.725 4.128-3.725c1.792 0 3.08.625 4.008 2.254l-2.19 1.405c-.48-.86-1.006-1.21-1.812-1.21c-.824 0-1.352.522-1.352 1.21c0 .852.52 1.188 1.73 1.71l.703.31c2.397 1.02 3.747 2.07 3.747 4.43c.007 2.544-1.986 3.93-4.665 3.93z" />
+                  </svg>
+                </div>
+
+                <div class="text-white w-25 p-2 p-md-4">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="52"
+                    height="52"
+                    viewBox="0 0 24 24">
+                    <g
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-miterlimit="10"
+                      stroke-width="1">
+                      <path
+                        d="M22.5 5.5H.5v6h22zm-4-4h-14l-4 4h22zm1 6v2m-2-2v2m-2-2v2" />
+                      <path
+                        d="M4.75 7.25L3.5 8.5l1.25 1.25L6 8.5zM22.5 11.5H.5v6h22zm-3 2v2m-2-2v2m-2-2v2" />
+                      <path
+                        d="M4.75 13.25L3.5 14.5l1.25 1.25L6 14.5zM22.5 17.5H.5v6h22zm-3 2v2m-2-2v2m-2-2v2" />
+                      <path d="M4.75 19.25L3.5 20.5l1.25 1.25L6 20.5z" />
+                    </g>
+                  </svg>
+                </div>
+
+                <div class="text-white w-25 p-2 p-md-4">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="52"
+                    height="52"
+                    viewBox="0 0 24 24">
+                    <path
+                      fill="currentColor"
+                      fill-rule="evenodd"
+                      d="M6.177 9.769a.23.23 0 0 1 .115.2l-.004 2.968c0 .041-.022.08-.057.1a.11.11 0 0 1-.116 0l-1.137-.652a.23.23 0 0 1-.116-.2v-1.387a.23.23 0 0 0-.116-.2l-.484-.279a.23.23 0 0 0-.231 0l-.485.28a.23.23 0 0 0-.115.2v1.386a.23.23 0 0 1-.116.2l-1.139.653a.11.11 0 0 1-.114 0a.11.11 0 0 1-.058-.1L2 9.97c0-.083.044-.16.116-.201L4.03 8.667a.2.2 0 0 1 .105-.03h.02a.2.2 0 0 1 .106.03zm9.122 1.796a.06.06 0 0 0 .03-.05v-.76c0-.02-.012-.04-.03-.05l-.658-.38a.06.06 0 0 0-.058 0l-.657.38a.06.06 0 0 0-.029.05v.76c0 .02.011.04.03.05l.657.38c.018.01.04.01.058 0zm.092-5.673a.12.12 0 0 1 .115-.001l1.14.636a.23.23 0 0 1 .119.202v5.512a.23.23 0 0 1-.116.2l-1.916 1.107a.23.23 0 0 1-.231 0l-1.916-1.106a.23.23 0 0 1-.116-.2V10.03a.23.23 0 0 1 .116-.2l1.916-1.106a.23.23 0 0 1 .231 0l.48.277a.081.081 0 0 0 .121-.07V5.99a.12.12 0 0 1 .057-.1M22 10.536a.23.23 0 0 1-.115.2l-1.149.667a.12.12 0 0 1-.116 0a.12.12 0 0 1-.058-.1v-.545a.12.12 0 0 0-.057-.1l-.6-.346a.11.11 0 0 0-.116 0l-.6.346a.12.12 0 0 0-.057.1v.694c0 .04.022.08.058.1l1.927 1.105a.116.116 0 0 1 0 .202l-1.152.64a.23.23 0 0 1-.227-.002l-1.903-1.085a.23.23 0 0 1-.116-.2V10a.23.23 0 0 1 .115-.2l1.916-1.105a.23.23 0 0 1 .231 0L21.885 9.8A.23.23 0 0 1 22 10zm-10.115 7.589a.4.4 0 0 1-.19-.05l-.602-.358c-.09-.05-.046-.068-.017-.078a1.2 1.2 0 0 0 .273-.124q.022-.01.045.003l.463.275c.017.009.04.009.056 0l1.806-1.043a.06.06 0 0 0 .028-.049v-2.084c0-.02-.01-.04-.028-.05l-1.805-1.041a.06.06 0 0 0-.056 0l-1.805 1.041a.06.06 0 0 0-.029.05V16.7c0 .02.011.039.028.048l.495.286c.268.134.432-.024.432-.183v-2.057c0-.03.024-.052.053-.052h.229c.028 0 .052.022.052.052v2.058c0 .358-.196.563-.535.563c-.105 0-.187 0-.417-.113l-.473-.273a.38.38 0 0 1-.19-.33v-2.083a.38.38 0 0 1 .19-.33l1.808-1.043a.4.4 0 0 1 .38 0l1.805 1.044a.38.38 0 0 1 .19.329V16.7a.38.38 0 0 1-.19.33l-1.806 1.042a.4.4 0 0 1-.19.051m.558-1.436c-.79 0-.956-.363-.956-.667c0-.03.024-.052.053-.052h.233a.05.05 0 0 1 .051.044c.036.238.14.358.618.358c.381 0 .543-.087.543-.288c0-.117-.046-.203-.638-.26c-.494-.05-.8-.159-.8-.554c0-.364.308-.582.823-.582c.578 0 .864.201.9.632a.052.052 0 0 1-.052.057h-.235a.05.05 0 0 1-.05-.04c-.057-.25-.193-.33-.564-.33c-.416 0-.464.144-.464.253c0 .132.057.17.617.244c.556.074.82.178.82.568c0 .393-.33.619-.901.619zm2.198-2.209h.06c.05 0 .06-.034.06-.055c0-.053-.037-.053-.058-.053h-.062zm-.074-.17h.134c.046 0 .137 0 .137.103c0 .071-.046.086-.074.095c.053.004.057.038.064.085v.004l.001.004c.004.031.01.082.02.1h-.083l-.001-.013l-.014-.11c-.005-.023-.013-.034-.04-.034h-.069v.157h-.075zm.478.194a.349.349 0 1 1-.348-.348c.188 0 .348.152.348.349m4.792-3.872a.04.04 0 0 1 .045 0l.367.212a.05.05 0 0 1 .023.039v.424q-.001.025-.023.038l-.367.213a.04.04 0 0 1-.045 0l-.367-.213a.04.04 0 0 1-.022-.038v-.424q0-.025.022-.039zM9.545 8.756a.24.24 0 0 0-.237 0L7.34 9.891a.24.24 0 0 0-.118.206v2.273c0 .084.046.163.12.205l1.966 1.136a.24.24 0 0 0 .237 0l1.966-1.136a.24.24 0 0 0 .119-.205v-2.273a.24.24 0 0 0-.119-.206z"
+                      clip-rule="evenodd" />
+                  </svg>
+                </div>
+
+                <div class="text-white w-25 p-2 p-md-4">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="52"
+                    height="52"
+                    viewBox="0 0 24 24">
+                    <path
+                      fill="currentColor"
+                      fill-rule="evenodd"
+                      d="M5 1a4 4 0 0 0-4 4v14a4 4 0 0 0 4 4h14a4 4 0 0 0 4-4V5a4 4 0 0 0-4-4zm.5 6H9a3.5 3.5 0 1 1 0 7H7.5v3h-2zm2 5H9a1.5 1.5 0 0 0 0-3H7.5zm10.425-.366c-.857-.193-1.765-.345-2.423-.296c-.333.024-.758.128-.33.472c.353.282.77.459 1.188.635c.43.182.862.365 1.228.666c.511.42.912 1.032.912 1.889c0 .855-.404 1.51-1.048 1.9c-.569.344-1.256.442-1.851.457c-.962.024-2.022-.168-2.812-.362v-2.068c.728.208 1.858.453 2.762.43c.47-.011.747-.097.873-.173c.2-.12.018-.426-.105-.527c-.352-.29-.775-.468-1.2-.647c-.42-.177-.842-.355-1.198-.64c-.51-.41-.921-1.015-.921-1.87c0-.695.29-1.28.82-1.665c.472-.34 1.044-.456 1.533-.492c.825-.061 1.777.082 2.572.245z"
+                      clip-rule="evenodd" />
+                  </svg>
+                </div>
+
+                <div class="text-white w-25 p-2 p-md-4">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="52"
+                    height="52"
+                    viewBox="0 0 256 256">
+                    <path
+                      fill="currentColor"
+                      d="M184.46 96A36 36 0 0 0 168 28H96a36 36 0 0 0-16.46 68a36 36 0 0 0 1.56 64.76A40 40 0 1 0 140 196v-45.41A36 36 0 1 0 184.46 96M196 64a28 28 0 0 1-28 28h-28V36h28a28 28 0 0 1 28 28m-56 36h5.41a36.4 36.4 0 0 0-5.41 5.41ZM68 64a28 28 0 0 1 28-28h36v56H96a28 28 0 0 1-28-28m64 132a32 32 0 1 1-32-32h32Zm0-40H96a28 28 0 0 1 0-56h36Zm36 0a28 28 0 1 1 28-28a28 28 0 0 1-28 28" />
+                  </svg>
+                </div>
+
+                <div class="text-white w-25 p-2 p-md-4">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="52"
+                    height="52"
+                    viewBox="0 0 24 24">
+                    <path
+                      fill="currentColor"
+                      fill-rule="evenodd"
+                      d="M5 1a4 4 0 0 0-4 4v14a4 4 0 0 0 4 4h14a4 4 0 0 0 4-4V5a4 4 0 0 0-4-4zm12.57 5.5h2v9.79c-.565.196-1.954.59-2.988.59c-1.293 0-3.582-.665-3.582-3.766c0-2.687 2.237-3.7 4.57-3.7zm0 4.624v4c-.83 0-2.5-.213-2.5-2s1.67-2 2.5-2M6.5 7.88h-2l2.5 4.5l-2.5 4.5h2l2-3.5l2 3.5h2l-2.5-4.5l2.5-4.5h-2l-2 3.5z"
+                      clip-rule="evenodd" />
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- 2nd Section End -->
+
+      <!-- 3rd Section Start -->
+      <div
+        class="container-fluid third-section-py bg-white"
+        id="portfolio">
+        <div class="container">
+          <!-- H text -->
+          <div
+            class="display-4 text-black text-center pb-4"
+            style="font-weight: 900">
+            Portfolio
+          </div>
+
+          <!-- Cards -->
+          <div class="d-block d-xl-flex gap-3">
+            <div class="card p-3 my-4 my-xl-0">
+              <img
+                src="assets/post-img.jpg"
+                class="card-img-top"
+                alt="..." />
+
+              <div class="card-body p-0 py-4">
+                <h5 class="card-title fs-3">
+                  <span style="font-weight: 900">KASO -</span> YC Combinator
+                  Platform
+                </h5>
+                <p class="card-text">
+                  Kaso YC (formerly ElKaso) is an online B2B platform that
+                  facilitates order processing and communication between
+                  restaurants and suppliers.
+                </p>
+                <a
+                  href="#"
+                  class="btn btn-outline-secondary rounded-pill px-3">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    fill="currentColor"
+                    class="bi bi-box-arrow-up-right me-1 mb-1"
+                    viewBox="0 0 16 16">
+                    <path
+                      fill-rule="evenodd"
+                      d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5" />
+                    <path
+                      fill-rule="evenodd"
+                      d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0z" />
+                  </svg>
+                  Go somewhere</a
+                >
+              </div>
+            </div>
+
+            <div class="card p-3 my-4 my-xl-0">
+              <img
+                src="assets/post-img.jpg"
+                class="card-img-top"
+                alt="..." />
+
+              <div class="card-body p-0 py-4">
+                <h5 class="card-title fs-3">
+                  <span style="font-weight: 900">KASO -</span> YC Combinator
+                  Platform
+                </h5>
+                <p class="card-text">
+                  Kaso YC (formerly ElKaso) is an online B2B platform that
+                  facilitates order processing and communication between
+                  restaurants and suppliers.
+                </p>
+                <a
+                  href="#"
+                  class="btn btn-outline-secondary rounded-pill px-3">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    fill="currentColor"
+                    class="bi bi-box-arrow-up-right me-1 mb-1"
+                    viewBox="0 0 16 16">
+                    <path
+                      fill-rule="evenodd"
+                      d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5" />
+                    <path
+                      fill-rule="evenodd"
+                      d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0z" />
+                  </svg>
+                  Go somewhere</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- 3rd Section End -->
+    </main>
     <!-- Main End -->
 
     <!-- Footer Start -->
-    <footer></footer>
+    <footer>
+      <div
+        class="container-fluid c-bg-orange footer-section-py px-0"
+        id="contact">
+        <div class="container d-block d-xl-flex gap-5">
+          <div class="text-center text-xl-start">
+            <div class="">
+              <img
+                src="assets/profile-img.jpg"
+                class="border border-5 border-white rounded-circle shadow"
+                width="200"
+                alt="" />
+            </div>
+
+            <div
+              class="fs-1 text-white my-2"
+              style="font-weight: 900">
+              Contact me
+            </div>
+
+            <div class="fs-6 text-white">
+              Interested in discussing design, sharing ideas, or exploring
+              innovations in product design? Feel free to reach out—let’s keep
+              the conversation going.
+            </div>
+
+            <div class="my-4">
+              <a
+                href="https://in.linkedin.com/"
+                class="c-btn-link mt-3 py-3 border-0">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="22"
+                  height="22"
+                  fill="currentColor"
+                  class="bi bi-linkedin c-text-orange me-2"
+                  viewBox="0 0 16 16">
+                  <path
+                    d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z" />
+                </svg>
+                Get in Touch
+              </a>
+            </div>
+          </div>
+
+          <div
+            class="px-md-5 mx-2 mx-xl-5 w-75 pt-5 py-xl-0 mx-auto me-xl-auto">
+            <div class="py-5 px-md-2 bg-white rounded-5 text-center">
+              <div
+                class="fs-6 c-text-orange my-2 text-center"
+                style="font-weight: 900">
+                Let’s Stay Connected
+              </div>
+
+              <div class="my-5">
+                <a
+                  href="tel:9999999999"
+                  class="c-btn-link my-5">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="22"
+                    height="22"
+                    fill="currentColor"
+                    class="bi bi-linkedin c-text-orange me-2"
+                    viewBox="0 0 16 16">
+                    <path
+                      d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.6 17.6 0 0 0 4.168 6.608 17.6 17.6 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.68.68 0 0 0-.58-.122l-2.19.547a1.75 1.75 0 0 1-1.657-.459L5.482 8.062a1.75 1.75 0 0 1-.46-1.657l.548-2.19a.68.68 0 0 0-.122-.58zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z" />
+                  </svg>
+                  +91 9999999999
+                </a>
+              </div>
+
+              <div class="my-5">
+                <a
+                  href="mailto:abc@gmail.com"
+                  class="c-btn-link my-5">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="22"
+                    height="22"
+                    fill="currentColor"
+                    class="bi bi-linkedin c-text-orange me-2"
+                    viewBox="0 0 16 16">
+                    <path
+                      d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z" />
+                  </svg>
+                  abc@gmail.com
+                </a>
+              </div>
+
+              <div class="my-5">
+                <a
+                  href="https://maps.app.goo.gl/bGoBaNHnbXC4G6aPA"
+                  class="c-btn-link my-5">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="22"
+                    height="22"
+                    fill="currentColor"
+                    class="bi bi-linkedin c-text-orange me-2"
+                    viewBox="0 0 16 16">
+                    <path
+                      d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A32 32 0 0 1 8 14.58a32 32 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10" />
+                    <path
+                      d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4m0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6" />
+                  </svg>
+                  Kolkata, India
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-fluid bg-black py-5">
+        <div class="container text-center">
+          <div class="fs-6 c-text-gray">
+            Copyright 2025 @Your Name || All Rights Reserved
+          </div>
+        </div>
+      </div>
+    </footer>
     <!-- Footer End -->
     <!-- Body End -->
 
