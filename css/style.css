@@ -4,10 +4,11 @@
 /* CSS Custom Properties */
 :root {
   --color-gray: #7b7b7b;
+  --color-gray-rgb: 123, 123, 123;
   --color-orange: #ff4928;
   --color-white: #ffffff;
   --color-black: #000000;
-  --font-primary: "Open Sans", sans-serif;
+  --font-primary: "Nova Mono", monospace;
   --font-weight-bold: 900;
   --spacing-section: 6.25rem;
   --border-radius-pill: 2rem;
@@ -43,6 +44,11 @@
   line-height: 1.1;
 }
 
+/* Font Weight Utilities */
+.fw-900 {
+  font-weight: 900 !important;
+}
+
 /* Spacing Utilities */
 .header-padding {
   padding-bottom: var(--spacing-section);
@@ -72,9 +78,6 @@
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
-  /* Performance optimization */
-  will-change: transform;
-  backface-visibility: hidden;
 }
 
 /* Button Components */
@@ -83,7 +86,7 @@
   align-items: center;
   padding: 0.75rem 2rem;
   background-color: var(--color-white);
-  border: 1px solid rgba(var(--color-gray), 0.5);
+  border: 1px solid rgba(var(--color-gray-rgb), 0.5);
   border-radius: var(--border-radius-pill);
   text-decoration: none;
   color: var(--color-black);
